@@ -1,0 +1,137 @@
+/* Styles for the job list page */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.j-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.job-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-salary,
+.job-location {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.job-description {
+  font-size: 14px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-btn {
+  display: flex;
+}
+
+.j-edit {
+  background: #0041cc;
+  margin: 0 10px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.j-delete {
+  background: #cc0000;
+  margin: 0 10px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.new-job-btn {
+  background-color: #1b9bff;
+  color: #fff;
+  padding: 10px 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.job-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.active,
+a:hover {
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  width: 30%;
+  height: 100px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .j-title {
+    font-size: 20px;
+  }
+
+  .job-item {
+    padding: 10px;
+  }
+
+  .job-title {
+    font-size: 18px;
+  }
+
+  .job-salary,
+  .job-location {
+    font-size: 14px;
+  }
+
+  .job-description {
+    font-size: 12px;
+  }
+}

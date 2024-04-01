@@ -1,0 +1,111 @@
+.apply-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.from-input {
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.from-left,
+.from-right {
+  margin: 10px;
+  width: 50%;
+}
+
+.form-i-group {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.g-radio {
+  display: flex;
+  flex-direction: row;
+}
+
+.g-radio label {
+  margin-right: 10px;
+}
+
+.gc-redio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-lable {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #1b9bff;
+  border-color: #1b9bff;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  padding: 20px;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.error {
+  background-color: #f44336;
+}
+
+.success {
+  background-color: #31b141;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+section {
+  height: auto;
+  min-height: 100vh;
+  margin-bottom: 20px;
+}
+
+.mb {
+  margin-bottom: 50px;
+}

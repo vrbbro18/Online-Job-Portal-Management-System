@@ -1,0 +1,57 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-div {
+  background: rgba(255, 255, 255, 0.01);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
+
+.job-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.job-list th,
+.job-list td {
+  padding: 20px;
+  text-align: left;
+}
+
+.job-list th {
+  font-weight: bold;
+}
+
+.j-edit {
+  background-color: #1b9bff;
+  height: 35px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.j-delete {
+  background-color: #ff1b1b;
+  height: 35px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.job-list {
+  margin-bottom: 80px;
+}

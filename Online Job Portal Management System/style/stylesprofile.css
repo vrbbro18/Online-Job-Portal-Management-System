@@ -1,0 +1,591 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background: #23383C;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+form.search-form{
+ font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+button {
+    background: skyblue;
+    float: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: right;
+    padding: 7px;
+    font-family: sans-serif;
+}
+ input {
+    padding: 7px;
+    border-style: circle;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+#navbutton.active,#navbutton:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  #navbutton:hover,#navbutton.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+section{
+  height: 100%;
+  height: calc(100vh - 60px);
+}
+body{
+    background: url(../images/B2.jpg) no-repeat;
+  background-size: cover;
+}
+
+    
+  /***************************************************************************************************************/
+
+.id1{
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.profile_pic{
+  width: 200px; 
+  height:200px;
+  border-radius: 50%;
+  margin-left: 45px;
+}
+
+.wishlist{
+  width: 50px;
+  height: 50px;
+}
+.bio {
+  margin-left: 330px;
+  margin-right: 10px;
+  margin-top: -300px;
+  margin-bottom: 225px;
+  background-color: rgba(255, 255, 255, 0.588);
+  padding: 17px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.des{
+  color: #000;
+}
+.dee{
+  background-color: #ffffff35;
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.bio1{
+  font-weight: bolder;
+  color: #000;
+}
+
+.hr{
+  border: 1px solid;
+  margin-inline: 15px;
+}
+
+.mail{
+  color: rgb(62, 62, 62);
+  font-size: 20px;
+  margin-top:15px;
+  margin-left:10px;
+  padding: 3px;
+  display: inline-block;
+}
+
+.name{
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top:15px;
+  margin-left:10px;
+  padding: 3px;
+  display: inline-block;
+}
+
+.buttons{
+  margin-left: 400px;
+  
+}
+
+.buttons li{
+
+  display: inline;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #1f1d1d;
+  color: rgb(174, 174, 174);
+}
+
+.form{
+  margin-left: 50px;
+  margin-top: 50px;
+  position: absolute;
+  background: linear-gradient(220deg, #ffffff7e, rgba(0, 0, 0, 0.699));
+  left: 20%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+.fname{
+  margin-left: 150px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.fname:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.femail{
+  margin-left: 153px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.femail:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.faddress{
+  margin-left: 135px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.faddress:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.fnumber{
+  margin-left: 86px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.fnumber:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.fgender{
+  margin-left: 140px;
+  width: 100px;
+  height: 30px;
+  color: #000000;
+  border-radius: 10px;
+}
+.fgender:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.fdateofbirth{
+  margin-left: 102px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.fdateofbirth:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.foldpassword{
+  margin-left: 95px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.foldpassword:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.fnewpassword{
+  margin-left: 88px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.fnewpassword:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.fconfirmpassword{
+  margin-left: 64px;
+  width: 500px;
+  color: #000000;
+  border-radius: 10px;
+}
+.fconfirmpassword:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.submit{
+  margin-left:650px;
+  color: #000;
+  border-radius: 10px;
+}
+
+.editprofile{
+  margin-left: 5px;
+  width: 290px;
+  background-color: rgba(128, 128, 128, 0.438);
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.details *{
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.details{
+  background-color: rgba(255, 255, 255, 0.655);
+  display: inline-block;
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+.card{
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(165, 165, 165);
+  display: inline-block;
+  box-shadow: 0 0 10px black;
+}
+.gig{
+  margin-left: 90%;
+  margin-bottom: 20px;
+  color: whit;
+  background-color: red;
+  border-radius: 10%;
+  padding: 10px;
+}
+.gig:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.giglist{
+  margin-left: 90%;
+  margin-bottom: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 10%;
+  padding: 10px;
+  
+}
+.giglist:hover{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#Badge1{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  left: 800px;
+  bottom: 500px;
+}
+#Badge2{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+  left: 900px;
+  bottom: 500px;
+}
+#Badge3{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 470px;
+  bottom:230px;
+}
+/*******************************************************************************************************************/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  position: unset;
+  bottom: 100%;
+  width: 100%;
+  background: #111;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+
+
+
+
+
+
+
